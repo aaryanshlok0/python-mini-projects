@@ -14,7 +14,7 @@ This is a Python-based keylogger that logs keystrokes and captures screenshots w
 ├── key_log.txt               # File containing the keypress logs with timestamps
 ├── screenshots/              # Folder where screenshots are stored
 │   └── screen_<timestamp>.png  # Screenshot image files
-└── main.py                      # Main Python script
+└── key-logger.py                      # Main Python script
 ```
 
 ### Example of Log Entry in `key_log.txt`:
@@ -49,10 +49,10 @@ pip install pynput pyautogui
 1. Clone or download this project.
 2. Open a terminal/command prompt.
 3. Navigate to the project directory.
-4. Run the `main.py` script using Python:
+4. Run the `key-logger.py` script using Python:
 
 ```bash
-python keylogger.py
+python key-logger.py
 ```
 
 ## ⚠️ Important Notes:
